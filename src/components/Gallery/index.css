@@ -1,0 +1,25 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  max-width: 1140px;
+}
+
+.big-img {
+  border-radius: 18px;
+}
+
+.list-container {
+  flex-wrap: wrap;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
